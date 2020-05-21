@@ -1,0 +1,111 @@
+[debug] [2020-05-21T18:54:19.063Z] ----------------------------------------------------------------------
+[debug] [2020-05-21T18:54:19.068Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-05-21T18:54:19.069Z] CLI Version:   8.4.0
+[debug] [2020-05-21T18:54:19.069Z] Platform:      win32
+[debug] [2020-05-21T18:54:19.069Z] Node Version:  v12.5.0
+[debug] [2020-05-21T18:54:19.075Z] Time:          Thu May 21 2020 13:54:19 GMT-0500 (GMT-05:00)
+[debug] [2020-05-21T18:54:19.076Z] ----------------------------------------------------------------------
+[debug] [2020-05-21T18:54:19.076Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=877592081&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-05-21T18:54:42.352Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AHGiXNXRU-ZOzKkFRJcefYZBYaxJ_KhmR7wUea5724h6UjZkMHidMVmjhpA9rZINPYMziTZKBbSgvJEnLZ-f6E","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-05-21T18:54:42.694Z] Token Fetch Error: FirebaseError: Server Error. unable to verify the first certificate
+    at Request._callback (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.EventEmitter.emit (domain.js:471:20)
+    at Request.onRequestError (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:200:13)
+    at ClientRequest.EventEmitter.emit (domain.js:471:20)
+    at TLSSocket.socketErrorListener (_http_client.js:402:9)
+    at TLSSocket.emit (events.js:200:13)
+    at TLSSocket.EventEmitter.emit (domain.js:471:20)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at processTicksAndRejections (internal/process/task_queues.js:74:11)
+[debug] [2020-05-21T18:55:19.386Z] ----------------------------------------------------------------------
+[debug] [2020-05-21T18:55:19.388Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-05-21T18:55:19.388Z] CLI Version:   8.4.0
+[debug] [2020-05-21T18:55:19.388Z] Platform:      win32
+[debug] [2020-05-21T18:55:19.388Z] Node Version:  v12.5.0
+[debug] [2020-05-21T18:55:19.391Z] Time:          Thu May 21 2020 13:55:19 GMT-0500 (GMT-05:00)
+[debug] [2020-05-21T18:55:19.391Z] ----------------------------------------------------------------------
+[debug] [2020-05-21T18:55:19.391Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1040678858&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-05-21T18:57:07.167Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AGkeBDhBoKXRxMvD4HsgFqNvfni-n_UBH0GnpSpFHVFcTVUnP5e4vFf7b0lkcVzmscvnfBbjy9KK8vuoPFODds","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-05-21T18:57:08.643Z] Token Fetch Error: FirebaseError: Server Error. unable to verify the first certificate
+    at Request._callback (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.EventEmitter.emit (domain.js:471:20)
+    at Request.onRequestError (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:200:13)
+    at ClientRequest.EventEmitter.emit (domain.js:471:20)
+    at TLSSocket.socketErrorListener (_http_client.js:402:9)
+    at TLSSocket.emit (events.js:200:13)
+    at TLSSocket.EventEmitter.emit (domain.js:471:20)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at processTicksAndRejections (internal/process/task_queues.js:74:11)
+[debug] [2020-05-21T18:57:33.237Z] ----------------------------------------------------------------------
+[debug] [2020-05-21T18:57:33.239Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-05-21T18:57:33.239Z] CLI Version:   8.4.0
+[debug] [2020-05-21T18:57:33.240Z] Platform:      win32
+[debug] [2020-05-21T18:57:33.240Z] Node Version:  v12.5.0
+[debug] [2020-05-21T18:57:33.242Z] Time:          Thu May 21 2020 13:57:33 GMT-0500 (GMT-05:00)
+[debug] [2020-05-21T18:57:33.242Z] ----------------------------------------------------------------------
+[debug] [2020-05-21T18:57:33.242Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=954037259&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-05-21T18:58:23.382Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AHeGY1iG5YaUEPWblF9XAH0fnuZXzowmDBSmPL3cYRFxhGwrM696qx85hB_F0288osx4aF8O19kUxCD_3SgUrs","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-05-21T18:58:23.931Z] Token Fetch Error: FirebaseError: Server Error. unable to verify the first certificate
+    at Request._callback (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.EventEmitter.emit (domain.js:471:20)
+    at Request.onRequestError (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:200:13)
+    at ClientRequest.EventEmitter.emit (domain.js:471:20)
+    at TLSSocket.socketErrorListener (_http_client.js:402:9)
+    at TLSSocket.emit (events.js:200:13)
+    at TLSSocket.EventEmitter.emit (domain.js:471:20)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at processTicksAndRejections (internal/process/task_queues.js:74:11)
+[debug] [2020-05-21T18:58:57.247Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AG6A-SEkWqg6wD_Kr1rGrDXoYUKQEfItr8Kp6PUkVR9ZkjGzsqWPXKdM3mSzT-q8HLeUxORseSe3f3EIvb-Hvg","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-05-21T18:58:57.582Z] Token Fetch Error: FirebaseError: Server Error. unable to verify the first certificate
+    at Request._callback (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.EventEmitter.emit (domain.js:471:20)
+    at Request.onRequestError (C:\Users\jzea\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:200:13)
+    at ClientRequest.EventEmitter.emit (domain.js:471:20)
+    at TLSSocket.socketErrorListener (_http_client.js:402:9)
+    at TLSSocket.emit (events.js:200:13)
+    at TLSSocket.EventEmitter.emit (domain.js:471:20)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at processTicksAndRejections (internal/process/task_queues.js:74:11)
