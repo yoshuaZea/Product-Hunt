@@ -76,9 +76,7 @@ const Producto = () => {
     const agregarVoto = () => {
         if(!usuario) return router.push('/login')
 
-        // Obtener y sumar votos
-        const nuevoTotal = votos + 1
-
+        
         // Verificar si el usuario actual ha votado
         if(hanVotado.includes(usuario.uid)){
             setYavoto(true)
@@ -87,6 +85,9 @@ const Producto = () => {
             }, 5000)
             return
         }
+
+        // Obtener y sumar votos
+        const nuevoTotal = votos + 1
 
         // Guardar el ID del usuario que ha votado
         const nuevosHanVotado = [...hanVotado, usuario.uid]
@@ -100,7 +101,8 @@ const Producto = () => {
         // Actualizar state
         setProducto({
             ...producto,
-            votos: nuevoTotal
+            votos: nuevoTotal,
+            hanVotado: nuevosHanVotado
         })
 
         setConsultarDB(true) // Nuevo voto, consulta la BD
